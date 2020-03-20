@@ -218,18 +218,19 @@ footer {
   height: 100%;
 }
 @media (max-width: 500px) {
+  .home .space-images img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .home .space-images .rocket {
     width: 93%;
     padding-left: 1.2rem;
   }
 }
 @media (max-width: 500px) {
-  .home .space-images .ring {
-    display: none;
-  }
-}
-@media (max-width: 500px) {
-  .home .space-images .shuttle {
+  .home .space-images .sky,
+  .home .space-images .launch {
     display: none;
   }
 }
