@@ -1,1 +1,15 @@
 // Mixins Here
+.background() {
+    background: @nav-bg;
+    border: 1px double @nav-border;
+};
+.button-creator(@width, @height, @bg-color, @color, @font) {
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    color: @color;
+    font-size: @font;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
